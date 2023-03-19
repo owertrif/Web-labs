@@ -1,0 +1,88 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #4e524f;
+  height: 377px;
+  width: 199px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-radius: 8px;
+  gap:1px;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.numbers{
+  background-color:#616462 ;
+    font-size: 25px;
+    color: white;
+    font-family: "Lucida Console", "Courier New", monospace;
+    width: 49px;
+    height:55px;
+
+}
+.zero{
+    width: 99px;
+    border-bottom-left-radius: 8px;
+}
+.numbers-field{
+  padding-top: 10px;
+  padding-right: 10px;
+    font-size: 50px;
+    text-align: right;
+    color: white;
+    font-family: "Lucida Console", "Courier New", monospace;
+    width: 200px;
+}
+
+.buttons{
+  background-color:#444645 ;
+    font-size:25px;
+    text-align: center;
+    color: white;
+    font-family: "Lucida Console", "Courier New", monospace;
+    width: 49px;
+    height:55px;
+}
+
+.top{
+  background-color:#444645 ;
+}
+.right{
+  background-color:#ec901c ;
+}
+.equality{
+  background-color:#ec901c ;
+  border-bottom-right-radius: 8px;
+}
+
+.dots{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 5px;
+  padding-left:5px;
+  justify-content: space-between;
+  height: 20px;
+  width: 200px;
+  flex-direction: row;
+  gap:1px;
+}
+
+.circle-item{
+  background:red;
+  border:red;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+}
+
+.orange{
+  background:orange;
+  border:orange;
+}
+.green{
+  background:green;
+  border:green;
+}

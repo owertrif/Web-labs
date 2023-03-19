@@ -1,0 +1,83 @@
+.calc-scene{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	background-color: #4e524f;
+	height: 400px;
+	width:250px;
+	gap: 1px;
+	border-radius: 8px;
+}
+.numbers{
+	background-color:#616462 ;
+  	padding: 10px;
+  	font-size: 30px;
+  	text-align: center;
+  	color: white;
+  	font-family: "Lucida Console", "Courier New", monospace; 	
+}
+.zero{
+  	grid-column-end: span 2;
+  	border-bottom-left-radius: 8px;
+}
+
+.buttons{
+	background-color:#444645 ;
+  	padding: 10px;
+  	font-size: 30px;
+  	text-align: center;
+  	color: white;
+  	font-family: "Lucida Console", "Courier New", monospace;
+}
+.top{
+	background-color:#444645 ;
+}
+.right{
+	background-color:#ec901c ;
+}
+.equality{
+	background-color:#ec901c ;
+  	border-bottom-right-radius: 8px;
+}
+.numbers-field{
+	padding-right: 10px;
+  	font-size: 60px;
+  	text-align: right;
+  	color: white;
+  	font-family: "Lucida Console", "Courier New", monospace;
+  	grid-column-end: span 4;
+  	grid-row-end: span 1;
+}
+.buttons-dots{
+  	font-family: "Lucida Console", "Courier New", monospace;
+  	grid-column-end: span 4;
+  	grid-row-end: span 1;
+}
+
+.circle-item{
+	background:red;
+	border:red;
+	border-radius: 50%;
+	height: 20px;
+	width: 20px;
+}
+.circle-empty{
+	border-radius: 50%;
+	height: 20px;
+	width: 20px;
+}
+
+.orange{
+	background:orange;
+	border:orange;
+}
+.green{
+	background:green;
+	border:green;
+}
+
+.line{
+	padding: 10px;
+	display:grid;
+	gap: 1px;
+	grid-template-columns: auto auto auto;
+}

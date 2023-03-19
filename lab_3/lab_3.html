@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+	<table border="2">
+		<tr>
+			<td colspan="3" align = "center"><b>Pizza shop 0.3</b></td>
+		</tr>
+		<tr>
+			<td>Name</td>
+			<td colspan="2">
+				<form>
+					<input type="text" id="name" name="fname">
+				</form>
+			</td>
+		</tr>
+		<tr>
+			<td align="center" rowspan="3">Pizza Topping </td>
+			<td colspan="2" rowspan="3"> 
+				<form>
+					<input type="radio" id="supreme" name="pizza_topping" value="Supreme">
+					<label for="supreme">Supreme</label><br>
+					<input type="radio" id="vegetarian" name="pizza_topping" value="Vegetarian">
+					<label for="vegetarian">Vegetarian</label><br>
+					<input type="radio" id="chili_hot_peppre_pizza" name="pizza_topping" value="Chili Hot Pepper Pizza">
+					<label for="chili_hot_pepper_pizza">Chili Hot Pepper Pizza</label><br>
+				</form>
+			</td>
+		</tr>
+		<tr>
+		</tr>
+		<tr>
+		</tr>
+		<tr>
+			<td>Pizza Sauce</td>
+			<td colspan="2">
+				<form>
+					<select>
+						<option>Tomato</option>
+						<option>Cheese</option>
+						<option>Chili Pepper</option>
+					</select>
+				</form>
+			</td>
+		</tr>
+		<tr>
+			<td>Extras</td>
+			<td colspan="2">
+				<input type="checkbox" id="extra_cheese" name="Extra Cheese">
+				<lable for="extra_cheese">Extra Cheese</lable>
+				<input type="checkbox" id="thin_crust" name="Thin Crust">
+				<lable for="thin_crust">Thin Crust</lable><br>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3">
+				<label for="del_instr">Delivery Instructions:</label>
+				<form>
+					<input type="text" style="height:100px;width:300px;" id="del_instr" name="Delivery Instructions">
+				</form><br>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3">
+				<form>
+					<input type="submit" value="Send my Order">
+				</form>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
